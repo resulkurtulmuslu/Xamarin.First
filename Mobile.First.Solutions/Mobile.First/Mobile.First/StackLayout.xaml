@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mobile.First.StackLayout"
+             BackgroundColor="#342ead">
+    <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+        <Label Text="Awesome App" TextColor="#b9ebcc" FontSize="40" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+        <Label Text="Welcome to Awesome App" TextColor="#b9ebcc" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+        <StackLayout Orientation="Horizontal">
+            <Button HorizontalOptions="FillAndExpand" BackgroundColor="#f2a51a" TextColor="#342ead" Text="Login"></Button>
+            <Button HorizontalOptions="FillAndExpand" BackgroundColor="#f2a51a" TextColor="#342ead" Text="Register"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

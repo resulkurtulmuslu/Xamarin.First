@@ -13,3 +13,4 @@ D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debu
 D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debug\netstandard2.0\ref\Mobile.First.dll
 D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debug\netstandard2.0\Mobile.First.pdb
 D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debug\netstandard2.0\NextPage.xaml.g.cs
+D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debug\netstandard2.0\StackLayout.xaml.g.cs
