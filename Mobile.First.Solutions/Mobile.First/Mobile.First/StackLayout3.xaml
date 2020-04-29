@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mobile.First.StackLayout3"
+             Title="Akıllı Saatler"
+             BackgroundColor="#f7f7f7">
+    <ScrollView>
+        <StackLayout Margin="10">
+            <StackLayout Orientation="Horizontal" BackgroundColor="#95389e">
+                <Image Source="https://productimages.hepsiburada.net/s/31/280-413/10335482282034.jpg"  WidthRequest="100" HeightRequest="125"></Image>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Samsung Galaxy Watch" TextColor="#100303" FontSize="Large"></Label>
+                    <BoxView BackgroundColor="#100303" HeightRequest="1"></BoxView>
+                    <Label Text="From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                        <Label Text="1200 TL" TextColor="#43d8c9" VerticalOptions="Center"></Label>
+                        <Button Text="Ürünü İncele" BackgroundColor="#43d8c9"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="#95389e">
+                <Image Source="https://productimages.hepsiburada.net/s/25/400-592/10126736556082.jpg"  WidthRequest="100" HeightRequest="125"></Image>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Samsung Galaxy Watch" TextColor="#100303" FontSize="Large"></Label>
+                    <BoxView BackgroundColor="#100303" HeightRequest="1"></BoxView>
+                    <Label Text="From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                        <Label Text="1200 TL" TextColor="#43d8c9" VerticalOptions="Center"></Label>
+                        <Button Text="Ürünü İncele" BackgroundColor="#43d8c9" ></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="#95389e">
+                <Image Source="https://productimages.hepsiburada.net/s/31/280-413/10335481626674.jpg" WidthRequest="100" HeightRequest="125"></Image>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Samsung Galaxy Watch" TextColor="#100303" FontSize="Large"></Label>
+                    <BoxView BackgroundColor="#100303" HeightRequest="1"></BoxView>
+                    <Label Text="From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                        <Label Text="1200 TL" TextColor="#43d8c9" VerticalOptions="Center"></Label>
+                        <Button Text="Ürünü İncele" BackgroundColor="#43d8c9" ></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="#95389e">
+                <Image Source="https://productimages.hepsiburada.net/s/6/280-413/9735205847090.jpg" WidthRequest="100" HeightRequest="125"></Image>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Samsung Galaxy Watch" TextColor="#100303" FontSize="Large"></Label>
+                    <BoxView BackgroundColor="#100303" HeightRequest="1"></BoxView>
+                    <Label Text="From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                        <Label Text="1200 TL" TextColor="#43d8c9" VerticalOptions="Center"></Label>
+                        <Button Text="Ürünü İncele" BackgroundColor="#43d8c9" VerticalOptions="Center"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="#95389e">
+                <Image Source="https://productimages.hepsiburada.net/s/6/280-413/9735205847090.jpg" WidthRequest="100" HeightRequest="125"></Image>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Samsung Galaxy Watch" TextColor="#100303" FontSize="Large"></Label>
+                    <BoxView BackgroundColor="#100303" HeightRequest="1"></BoxView>
+                    <Label Text="From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                        <Label Text="1200 TL" TextColor="#43d8c9" VerticalOptions="Center"></Label>
+                        <Button Text="Ürünü İncele" BackgroundColor="#43d8c9" VerticalOptions="Center"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="#95389e">
+                <Image Source="https://productimages.hepsiburada.net/s/6/280-413/9735205847090.jpg" WidthRequest="100" HeightRequest="125"></Image>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Samsung Galaxy Watch" TextColor="#100303" FontSize="Large"></Label>
+                    <BoxView BackgroundColor="#100303" HeightRequest="1"></BoxView>
+                    <Label Text="From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                        <Label Text="1200 TL" TextColor="#43d8c9" VerticalOptions="Center"></Label>
+                        <Button Text="Ürünü İncele" BackgroundColor="#43d8c9" VerticalOptions="Center"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="#95389e">
+                <Image Source="https://productimages.hepsiburada.net/s/6/280-413/9735205847090.jpg" WidthRequest="100" HeightRequest="125"></Image>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Samsung Galaxy Watch" TextColor="#100303" FontSize="Large"></Label>
+                    <BoxView BackgroundColor="#100303" HeightRequest="1"></BoxView>
+                    <Label Text="From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                        <Label Text="1200 TL" TextColor="#43d8c9" VerticalOptions="Center"></Label>
+                        <Button Text="Ürünü İncele" BackgroundColor="#43d8c9" VerticalOptions="Center"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="#95389e">
+                <Image Source="https://productimages.hepsiburada.net/s/6/280-413/9735205847090.jpg" WidthRequest="100" HeightRequest="125"></Image>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Samsung Galaxy Watch" TextColor="#100303" FontSize="Large"></Label>
+                    <BoxView BackgroundColor="#100303" HeightRequest="1"></BoxView>
+                    <Label Text="From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                        <Label Text="1200 TL" TextColor="#43d8c9" VerticalOptions="Center"></Label>
+                        <Button Text="Ürünü İncele" BackgroundColor="#43d8c9" VerticalOptions="Center"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
