@@ -10,7 +10,7 @@ namespace Mobile.First
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new GridLayout1());
+            MainPage = new NavigationPage(new GridLayout2());
         }
 
         protected override void OnStart()

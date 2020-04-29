@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mobile.First.GridLayout2"
+             Title="Hesap Makinesi">
+
+    <Grid BackgroundColor="#323232">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="lbl_Value" Grid.Row="0" Grid.ColumnSpan="4" Text="0" BackgroundColor="#323232" VerticalTextAlignment="End" HorizontalTextAlignment="End" TextColor="White" FontSize="60"></Label>
+
+        <Button x:Name="btn_AC" Clicked="btn_AC_Clicked" Grid.Row="1" Grid.Column="0" Text="AC" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_Plus" Clicked="btn_Plus_Clicked" Grid.Row="1" Grid.Column="1" Text="+/-" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_Yuzde" Clicked="btn_Yuzde_Clicked" Grid.Row="1" Grid.Column="2" Text="%" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_Bolum" Clicked="btn_Bolum_Clicked" Grid.Row="1" Grid.Column="3" Text="/" FontSize="40" BorderRadius="1" BackgroundColor="#ffa34d"></Button>
+
+        <Button x:Name="btn_7" Clicked="btn_7_Clicked" Grid.Row="2" Grid.Column="0" Text="7" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_8" Clicked="btn_8_Clicked" Grid.Row="2" Grid.Column="1" Text="8" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_9" Clicked="btn_9_Clicked" Grid.Row="2" Grid.Column="2" Text="9" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_Carpma" Clicked="btn_Carpma_Clicked" Grid.Row="2" Grid.Column="3" Text="X" FontSize="40" BorderRadius="1" BackgroundColor="#ffa34d"></Button>
+
+        <Button x:Name="btn_4" Clicked="btn_4_Clicked" Grid.Row="3" Grid.Column="0" Text="4" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_5" Clicked="btn_5_Clicked" Grid.Row="3" Grid.Column="1" Text="5" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_6" Clicked="btn_6_Clicked" Grid.Row="3" Grid.Column="2" Text="6" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_Eksi" Clicked="btn_Eksi_Clicked" Grid.Row="3" Grid.Column="3" Text="-" FontSize="40" BorderRadius="1" BackgroundColor="#ffa34d"></Button>
+
+        <Button x:Name="btn_1" Clicked="btn_1_Clicked" Grid.Row="4" Grid.Column="0" Text="1" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_2" Clicked="btn_2_Clicked" Grid.Row="4" Grid.Column="1" Text="2" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_3" Clicked="btn_3_Clicked" Grid.Row="4" Grid.Column="2" Text="3" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_Toplama" Clicked="btn_Toplama_Clicked" Grid.Row="4" Grid.Column="3" Text="+" FontSize="40" BorderRadius="1" BackgroundColor="#ffa34d"></Button>
+
+        <Button x:Name="btn_0" Clicked="btn_0_Clicked" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Text="0" FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_Nokta" Clicked="btn_Nokta_Clicked" Grid.Row="5" Grid.Column="2" Text="." FontSize="40" BorderRadius="1"></Button>
+        <Button x:Name="btn_Esittir" Clicked="btn_Esittir_Clicked" Grid.Row="5" Grid.Column="3" Text="=" FontSize="40" BorderRadius="1" BackgroundColor="#ffa34d"></Button>
+        
+    </Grid>
+</ContentPage>
