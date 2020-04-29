@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mobile.First.StackLayout2">
+    <StackLayout>
+        <Label Margin="20" FontAttributes="Bold" FontSize="20">Image Galery</Label>
+        <Image Source="https://picsum.photos/id/237/1200/600"></Image>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="10">
+            <Button Text="Like"></Button>
+            <Button Text="Comment"></Button>
+            <Button Text="Share"></Button>
+        </StackLayout>
+        <StackLayout>
+            <d:BoxView BackgroundColor="#f0f0f0" HeightRequest="1"></d:BoxView>
+            <Label Text="150 Like" FontSize="15" FontAttributes="Bold"></Label>
+            <Label Text="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."></Label>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
