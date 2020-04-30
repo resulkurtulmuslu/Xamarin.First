@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mobile.First.GridLayout3"
+             Title="Akılla Saatler"
+             BackgroundColor="#dbdbdb"
+             Padding="10,20">
+    <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackLayout Orientation="Vertical" Grid.Row="0" Grid.Column="0" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+            
+            <StackLayout Orientation="Vertical" Grid.Row="0" Grid.Column="1" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Row="1" Grid.Column="0" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Row="1" Grid.Column="1" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Row="2" Grid.Column="0" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Row="2" Grid.Column="1" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Row="3" Grid.Column="0" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Row="3" Grid.Column="1" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Row="4" Grid.Column="0" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Row="4" Grid.Column="1" BackgroundColor="White" Spacing="10" Padding="10">
+                <Image WidthRequest="100" HeightRequest="100" Source="https://productimages.hepsiburada.net/s/32/400-592/10365207216178.jpg"></Image>
+                <Label Text="Lenova" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/heart-128.png" HorizontalOptions="StartAndExpand"></Image>
+                    <Image Source="https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Bubble_chat_speech_bubble_comment_talk-128.png" HorizontalOptions="EndAndExpand"></Image>
+                </StackLayout>
+
+            </StackLayout>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
