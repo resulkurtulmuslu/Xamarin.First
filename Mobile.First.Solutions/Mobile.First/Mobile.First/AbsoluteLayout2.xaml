@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mobile.First.AbsoluteLayout2"
+             Title="Hava Durumu Tahmini">
+
+    <AbsoluteLayout>
+
+        <Image 
+            AbsoluteLayout.LayoutFlags="SizeProportional"
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            Source="https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png"
+            Aspect="AspectFill"
+            Opacity="0.9"></Image>
+
+        <Image 
+            AbsoluteLayout.LayoutFlags="All"
+            AbsoluteLayout.LayoutBounds="0.5,0.2,0.3,0.3"
+            Source="https://cdn3.iconfinder.com/data/icons/weather-ios-11-1/50/Heavy_Rain_Night_Rain_Raindrops_Apple_iOS_Flat_Weather-512.png"></Image>
+
+        <StackLayout
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.5,150,150"
+            Orientation="Vertical">
+
+            <Label Text="Sivas" HorizontalOptions="CenterAndExpand" TextColor="#f9f9f9" FontSize="28" FontAttributes="Bold"></Label>
+            <Label Text="-15 °C" HorizontalOptions="CenterAndExpand" TextColor="#f9f9f9" FontSize="28" FontAttributes="Bold"></Label>
+            
+        </StackLayout>
+
+        <BoxView 
+            AbsoluteLayout.LayoutFlags="All"  
+            AbsoluteLayout.LayoutBounds="0,1,1,0.1"
+            BackgroundColor="#505bda">
+        </BoxView>
+
+        <StackLayout
+            AbsoluteLayout.LayoutFlags="All"  
+            AbsoluteLayout.LayoutBounds="0,1,1,0.1"
+            Orientation="Horizontal">
+            <Button BackgroundColor="#505bda" TextColor="White" Text="Sıcaklık" HorizontalOptions="StartAndExpand"></Button>
+            <Button BackgroundColor="#505bda" TextColor="White" Text="Nem" HorizontalOptions="CenterAndExpand"></Button>
+            <Button BackgroundColor="#505bda" TextColor="White" Text="Rüzgar" HorizontalOptions="EndAndExpand"></Button>
+        </StackLayout>
+        
+    </AbsoluteLayout>
+    
+</ContentPage>

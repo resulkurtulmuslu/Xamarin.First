@@ -28,7 +28,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand" TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
@@ -46,7 +46,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"  TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
@@ -64,7 +64,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand" TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
@@ -82,7 +82,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand" TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
@@ -100,7 +100,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand" TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
@@ -118,7 +118,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand" TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
@@ -136,7 +136,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand" TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
@@ -154,7 +154,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand" TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
@@ -172,7 +172,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand" TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
@@ -190,7 +190,7 @@
 
                 <StackLayout Orientation="Horizontal">
                     <Label FontSize="13" TextColor="#fcbf1e"  Text="6999 TL" HorizontalOptions="StartAndExpand"></Label>
-                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand"></Label>
+                    <Label FontSize="13" TextColor="#888888" Text="7779 TL" HorizontalOptions="EndAndExpand" TextDecorations="Strikethrough"></Label>
                 </StackLayout>
 
                 <BoxView BackgroundColor="#dbdbdb" HeightRequest="1"></BoxView>
