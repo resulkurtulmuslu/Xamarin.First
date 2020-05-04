@@ -21,3 +21,4 @@ D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debu
 D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debug\netstandard2.0\GridLayout3.xaml.g.cs
 D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debug\netstandard2.0\AbsoluteLayout1.xaml.g.cs
 D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debug\netstandard2.0\AbsoluteLayout2.xaml.g.cs
+D:\GitHub\Mobile.First\Mobile.First.Solutions\Mobile.First\Mobile.First\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs

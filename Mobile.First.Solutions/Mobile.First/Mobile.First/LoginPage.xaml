@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mobile.First.LoginPage"
+             BackgroundImageSource="https://i.pinimg.com/originals/65/c0/33/65c03357bdfb429ee75ad3ba61d7d01a.jpg"
+             Opacity="90">
+
+    <AbsoluteLayout>
+
+        <BoxView 
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0.5,0.5,0.7,0.5"
+                 BackgroundColor="#dbdbdb"
+                 Opacity="0.7"
+                 CornerRadius="20">
+        </BoxView>
+
+        <StackLayout
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0.5,0.5,0.7,0.4"
+                 Margin="10">
+
+            <Entry Opacity="0.7" TextColor="White" PlaceholderColor="White" Placeholder="E-Posta"></Entry>
+            <Entry Opacity="0.7" TextColor="White" PlaceholderColor="White" Placeholder="Şifre" IsPassword="True"></Entry>
+
+            <BoxView BackgroundColor="#f0f0f0" HeightRequest="1"></BoxView>
+
+            <Button Text="Giriş" FontAttributes="Bold" VerticalOptions="EndAndExpand" BackgroundColor="#035aa6" TextColor="White"></Button>
+            <Button Text="Çıkış" FontAttributes="Bold" VerticalOptions="EndAndExpand" BackgroundColor="#c70039" TextColor="White"></Button>
+            
+        </StackLayout>
+
+    </AbsoluteLayout>
+
+</ContentPage>
